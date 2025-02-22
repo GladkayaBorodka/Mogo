@@ -1,3 +1,12 @@
 a {
     color: aquamarine;
 }
+ul li:nth-child(1) a {
+    color: red;
+  }
+p a:nth-child(1) {
+    color: red;
+}
+button {
+    background-color: aquamarine;
+}
