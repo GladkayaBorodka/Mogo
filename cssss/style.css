@@ -4,7 +4,7 @@ a {
 }
 ul li:nth-child(1) a {
     color: red;
-  }
+}
 p a:nth-child(1) {
     color: red;
 }
@@ -19,38 +19,32 @@ h2 {
 }
 section p:nth-child(1) {
     font-family: "Kaushan Script", sans-serif;
-    
 }
 section p:nth-child(3) {
     font-family: "Roboto", sans-serif;
-    
 }
 body {
     margin-left: 360px;
-}
-body {
     margin-right: 360px;
 }
+
+/* Header */
 .header {
     display: flex;
-    justify-content: space-between; 
-    align-items: center; 
+    justify-content: space-between;
+    align-items: center;
     padding: 10px 20px;
+    margin-bottom: 80px;
 }
 
 .nav-list {
     display: flex;
-    gap: 20px; 
-    list-style: none; 
+    gap: 20px;
+    list-style: none;
     padding: 0;
     margin: 0;
 }
-.header {
-    margin-bottom: 80px; /* Отступ вниз */
-}
 
-
-/*Header*/
 .logo {
     font-size: 24px;
     font-weight: bold;
@@ -58,85 +52,114 @@ body {
     color: aquamarine;
 }
 .nav-link {
-    text-decoration: none; 
-    color: aquamarine; 
+    text-decoration: none;
+    color: aquamarine;
     font-size: 16px;
 }
-
 .nav-link:hover {
-    text-decoration: underline; 
+    text-decoration: underline;
 }
 
-/*Main*/
-.services__intro,
-.services__title {
+/* Main */
+.services-intro,
+.services-title {
     text-align: center;
 }
-
-.services__list {
+.services-list {
     margin-top: 80px;
     margin-bottom: 80px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /*3 колонки*/
-    gap: 20px; 
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
     padding: 20px;
     list-style: none;
 }
-.team__intro,
-.team__title {
+.services-item {
+    list-style: none;
+}
+
+.service_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
 }
-.team__description {
+.service-card-image {
+    width: 100%;
+    max-width: 100px;
+    height: auto;
+}
+.service-card-title {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+.service-card-description {
+    margin-top: 5px;
+    font-size: 1rem;
+    max-width: 250px;
+}
+
+/* Team */
+.team-intro,
+.team-title {
+    text-align: center;
+}
+.team-description {
     margin-top: 80px;
     margin-bottom: 30px;
     text-align: center;
 }
-
-
-.team__list {
+.team-list {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /*3 колонки*/
-    gap: 20px; 
-    list-style: none; 
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    list-style: none;
     padding: 0;
-    text-align: center; 
+    text-align: center;
     margin-bottom: 80px;
 }
-
-.team__member {
+.team-member {
     display: flex;
-    flex-direction: column; 
-    align-items: center; 
+    flex-direction: column;
+    align-items: center;
 }
-.team__member-image {
-    width: 100%; 
-    max-width: 300px; 
-    height: auto; 
+.team-member-image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
 }
-.team__member-name {
-    margin-top: 10px; 
+.team-member-name {
+    margin-top: 10px;
     font-size: 1.5rem;
 }
-.team__member-role {
+.team-member-role {
     margin-top: 5px;
     font-size: 1rem;
 }
 
-/*Footer*/
+/* Footer */
 .footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-  
-  
-  
-
-
-
-
-
-
-
-
-
+}
+.footer-text {
+    font-family: "Roboto", sans-serif;
+}
+.footer-link {
+    color: aquamarine;
+    text-decoration: none;
+}
+.footer-form {
+    display: flex;
+}
+.footer-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+.footer-button {
+    padding: 10px;
+    background-color: aquamarine;
+    border: none;
+    cursor: pointer;
+}
