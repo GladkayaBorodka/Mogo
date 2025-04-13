@@ -1,71 +1,71 @@
+/* Общие стили */
 a {
     color: aquamarine;
     font-family: "Montserrat", sans-serif;
-}
-ul li:nth-child(1) a {
+  }
+  ul li:nth-child(1) a {
     color: red;
-}
-p a:nth-child(1) {
+  }
+  p a:nth-child(1) {
     color: red;
-}
-button {
+  }
+  button {
     background-color: aquamarine;
-}
-h3 {
+  }
+  h2,
+  h3 {
     font-family: "Montserrat", sans-serif;
-}
-h2 {
-    font-family: "Montserrat", sans-serif;
-}
-section p:nth-child(1) {
+  }
+  section p:nth-child(1) {
     font-family: "Kaushan Script", sans-serif;
-}
-section p:nth-child(3) {
+  }
+  section p:nth-child(3) {
     font-family: "Roboto", sans-serif;
-}
-body {
+  }
+  body {
     margin-left: 360px;
     margin-right: 360px;
-}
-
-/* Header */
-.header {
+  }
+  
+  /* Header */
+  .headers {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
     margin-bottom: 80px;
-}
-
-.nav-list {
+  }
+  
+  .navs-list {
     display: flex;
     gap: 20px;
     list-style: none;
     padding: 0;
     margin: 0;
-}
-
-.logo {
+  }
+  
+  .logos {
     font-size: 24px;
     font-weight: bold;
     text-decoration: none;
     color: aquamarine;
-}
-.nav-link {
+  }
+  
+  .navs-link {
     text-decoration: none;
     color: aquamarine;
     font-size: 16px;
-}
-.nav-link:hover {
+  }
+  .navs-link:hover {
     text-decoration: underline;
-}
-
-/* Main */
-.services-intro,
-.services-title {
+  }
+  
+  /* Main: Services */
+  .services-intro,
+  .services-title {
     text-align: center;
-}
-.services-list {
+  }
+  .services-list {
     margin-top: 80px;
     margin-bottom: 80px;
     display: grid;
@@ -73,43 +73,42 @@ body {
     gap: 20px;
     padding: 20px;
     list-style: none;
-}
-.services-item {
+  }
+  .services-item {
     list-style: none;
-}
-
-.service_card {
+  }
+  .services_card {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-}
-.service-card-image {
+  }
+  .services-card-image {
     width: 100%;
     max-width: 100px;
     height: auto;
-}
-.service-card-title {
+  }
+  .services-card-title {
     margin-top: 10px;
     font-size: 1.2rem;
-}
-.service-card-description {
+  }
+  .services-card-description {
     margin-top: 5px;
     font-size: 1rem;
     max-width: 250px;
-}
-
-/* Team */
-.team-intro,
-.team-title {
+  }
+  
+  /* Team */
+  .team-intro,
+  .team-title {
     text-align: center;
-}
-.team-description {
+  }
+  .team-description {
     margin-top: 80px;
     margin-bottom: 30px;
     text-align: center;
-}
-.team-list {
+  }
+  .team-list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
@@ -117,49 +116,50 @@ body {
     padding: 0;
     text-align: center;
     margin-bottom: 80px;
-}
-.team-member {
+  }
+  .team-item {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-.team-member-image {
+  }
+  .team-image {
     width: 100%;
     max-width: 300px;
     height: auto;
-}
-.team-member-name {
+  }
+  .team-name {
     margin-top: 10px;
     font-size: 1.5rem;
-}
-.team-member-role {
+  }
+  .team-role {
     margin-top: 5px;
     font-size: 1rem;
-}
-
-/* Footer */
-.footer {
+  }
+  
+  /* Footer */
+  .footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-.footer-text {
+  }
+  .footer-text {
     font-family: "Roboto", sans-serif;
-}
-.footer-link {
+  }
+  .footer-link {
     color: aquamarine;
     text-decoration: none;
-}
-.footer-form {
+  }
+  .footer-form {
     display: flex;
-}
-.footer-input {
+  }
+  .footer-input {
     padding: 10px;
     border: 1px solid #ccc;
-}
-.footer-button {
+  }
+  .footer-button {
     padding: 10px;
     background-color: aquamarine;
     border: none;
     cursor: pointer;
-}
+  }
+  
