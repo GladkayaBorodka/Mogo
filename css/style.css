@@ -26,6 +26,17 @@ a {
     margin-left: 360px;
     margin-right: 360px;
   }
+  /* Универсальный контейнер для всех секций */
+  .container {
+  width: 100%;
+  max-width: 1200px;  /* Ширина по макету */
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;  /* Внутренние отступы */
+  padding-right: 15px;
+  box-sizing: border-box;
+  }
+
   
   /* Header */
   .headers {
